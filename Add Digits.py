@@ -7,9 +7,9 @@ Follow up:Could you do it without any loop/recursion in O(1) runtime?
 结果发现其是以9为周期
 '''
 
-    def addDigits(num):
-        if not num:
-            return num
-        res = num % 9
-        return res if res else 9
+def addDigits(num):
+    if not num:
+        return num
+    res = num % 9
+    return res if res else 9
 
