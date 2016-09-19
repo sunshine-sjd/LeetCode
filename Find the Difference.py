@@ -21,4 +21,4 @@ def findTheDifference(s, t):
 方法2：
 '''
 def findTheDifference(s, t): 
-    return (Counter(t) - Counter(s)).popitem()[0]
+    return (collections.Counter(t) - collections.Counter(s)).popitem()[0]
